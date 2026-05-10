@@ -54,6 +54,7 @@ label, .stSelectbox label, .stSlider label, .stNumberInput label, .stDateInput l
 </style>
 """, unsafe_allow_html=True)
 
+
 @st.cache_resource
 def load_model():
     with open('best_model_xgboost.pkl', 'rb') as f:
