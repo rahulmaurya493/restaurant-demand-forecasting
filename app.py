@@ -147,7 +147,7 @@ if predict_btn:
         'day_of_month':   [date.day],
         'month':          [date.month],
         'quarter':        [date.quarter],
-        'year':           [date.year],
+        'year':           [2017],
         'is_weekend':     [1 if date.weekday() >= 5 else 0],
         'is_holiday':     [0],
         'lag_1':          [lag1],
