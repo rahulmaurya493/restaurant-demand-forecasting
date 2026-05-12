@@ -78,6 +78,7 @@ def set_chart_style():
         'grid.linewidth': 0.8, 'font.family': 'sans-serif', 'font.size': 11,
     })
 
+
 # ── HERO ─────────────────────────────────────────────────────
 st.markdown("""
 <div class='hero'>
